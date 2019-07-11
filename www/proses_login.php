@@ -7,7 +7,7 @@ $user = $_POST['username'] ;
 $pass = md5($_POST['password']) ;
 
 //koneksi
-$konek = mysqli_connect("localhost","root","","akademik") ;
+$konek = mysqli_connect("db","user","user","akademik") ;
 
 //sql cari user password
 $sql = "SELECT 
